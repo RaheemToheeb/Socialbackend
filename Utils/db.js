@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const url = "mongodb://localhost/Myapp";
+const url =
+  "mongodb+srv://codelab2021:Moriam_14@cluster0.o33zd.mongodb.net/MySocialApp?";
 
 mongoose.connect(url).then((req, res) => {
   try {
